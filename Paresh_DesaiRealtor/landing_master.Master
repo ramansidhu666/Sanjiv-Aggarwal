@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="landing_master.master.cs" Inherits="Property.landing_master" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta id="fbProprtyImage" runat="server" property="og:image" content="" />
+    <meta id="fbProprtyTitle" runat="server" property="og:title" content="" />
+
+    <meta id="fbProprtyUrl" runat="server" property="og:url" content="" />
+    <meta id="fbProprtyShareType" runat="server" property="og:type" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="tMsBcUAcnkjpOzJPaZvZXaMH5OQBV8Fj3tribryazUI" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126948734-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126948734-1');
+    </script>
+    <script type='application/ld+json'> 
+{
+"@context": "http://www.schema.org",
+"@type": "RealEstateAgent",
+"name": "Aggarwal Realty",
+"url": "https://aggarwalrealty.ca",
+"image": "https://aggarwalrealty.ca/admin/uploadfiles/img-4.jpg",
+"description": "With a combined professional experience of over 40 years in Sales & Customer Service, and Contract Negotiations exceeding $2B, Meena and Sanjiv, offer one-stop real estate experience to you.",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "20-470 Chrysler Drive",
+"addressLocality": "Brampton",
+"addressRegion": "Ontario",
+"postalCode": "L6S 0C1",
+"addressCountry": "Canada"
+},
+"openingHours": "Mo, Tu, We, Th, Fr, Sa, Su 09:00-21:00",
+"contactPoint": {
+"@type": "ContactPoint",
+"telephone":"4168445725"
+}
+}
+</script>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style type="text/css">
+        .AutoExtender {
+            background: none repeat scroll 0 0 hsl(0, 0%, 96%);
+            border: 1px solid #ccc;
+            font-family: Verdana,Arial Black;
+            font-size: 12px;
+            font-weight: normal;
+            height: auto;
+            line-height: 20px;
+            margin-top: -1px;
+            position: absolute;
+            width: 265px !important;
+            z-index: 600001;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .AutoExtenderList {
+            cursor: pointer;
+            color: Black;
+            width: 257px;
+            padding-left: 7px;
+            list-style-type: none;
+        }
+
+        .AutoExtenderHighlight {
+            color: White;
+            background-color: #006699;
+            cursor: pointer;
+            width: 257px;
+            padding-left: 7px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

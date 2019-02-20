@@ -1,0 +1,3 @@
+User-agent: *
+Allow: https://www.aggarwalrealty.ca/sitemap.xml
+
